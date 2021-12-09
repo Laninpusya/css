@@ -1,0 +1,186 @@
+body{
+    background: rgba(40, 95, 92, 0.404);
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+a{
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+h1{
+color: rgba(220, 20, 60, 0.685);
+}
+
+.avatar{
+    border-radius: 40px;
+    box-shadow: -20px -14px 20px 0px rgba(0, 0, 0, 0.589);
+}
+
+.info-custom{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 40px;
+}
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info p{
+    color: rgb(43, 0, 0);
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 700px) {
+    .info{
+        display: block;
+        text-align: center;
+    }
+    .container{
+        display: block;
+        text-align: center;
+    }
+}
+
+.container{
+    width: 75%;
+    max-width: 3000px;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.social{
+    background: rgb(247, 120, 141);
+    padding: 10px;
+    border: 5px solid rgb(234, 0, 255);
+    margin: 15px 650px 20px 20px;
+    border-style: dashed ;
+    max-width: 7000px;
+}
+
+/* .box-model > div {
+    float:left ;
+    background: rgb(0, 0, 0);
+    height: 200px;
+    width: 25%;
+    border: 4px solid red;
+    box-sizing: border-box;
+} */
+
+.bg-1{
+    background-color: rgba(255, 0, 0, 0.205);
+    border: 3px solid blueviolet;
+}
+
+.bg-2{
+    background-color: rgba(0, 128, 0, 0.26);
+    border: 3px solid blueviolet;
+}
+
+.bg-3{
+    background-color: rgba(0, 0, 255, 0.267);
+    border: 3px solid blueviolet;
+}
+
+.card{
+    padding: 15px 20px;
+    
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.table{
+    background-color: rgba(137, 43, 226, 0.719);
+    width: 100%;
+}
+
+.table th{
+    padding: 10px 10px;
+}
+.table th:nth-child(2), .table th:nth-child(3){
+    color: rgb(39, 53, 23);
+}
+
+.contact h3{
+    text-align: center;
+}
+
+.forms label{
+    cursor:help;
+    display: block;
+}
+
+.forms input, .forms textarea{
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px;
+    background: transparent;
+    
+}
+
+.forms textarea{
+    width: 50%;
+}
+
+.button{
+    
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+.button:hover{
+    background-color: rgb(255, 68, 224);
+    transition: 0.2s;
+    
+    
+    box-shadow: 10px 10px 100px 6px rgb(37, 0, 122);
+}
+
+.row{
+    display: flex;
+    margin: 10px;
+}
+
+.row  .forms{
+    width: 50%;
+    margin-right: 200px;
+}
+
+/* .position{
+    position: relative;
+    border: 2px solid;
+    padding: 10px;
+    height: 300px;
+}
+
+.box{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 151, 15);
+    bottom: 0;
+
+} */
+
+
+
+
+
+
+
